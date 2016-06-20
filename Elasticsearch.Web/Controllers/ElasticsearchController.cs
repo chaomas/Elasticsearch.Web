@@ -19,7 +19,7 @@ namespace Elasticsearch.Web.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public object Index()
+        public object Index() 
         {
            
             int length = S.test.Length;
